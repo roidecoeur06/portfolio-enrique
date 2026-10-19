@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #0d250f; 
-    color: #E2E8F0;
+    background-color: #FDF6EC; 
+    color: #3D2C1E;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -23,7 +23,7 @@ main {
 
 
 h1, h2, h3, a {
-    color: #38BDF8; 
+    color: #3D2C1E; 
 }
 
 a {
@@ -36,7 +36,7 @@ a:hover {
 
 
 header {
-    background-color: #1e3b23; 
+    background-color: #FDF6EC; 
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -45,7 +45,7 @@ header {
 
 .petit-nom {
     font-size: 0.9rem;
-    color: #E2E8F0;
+    color: #E07A5F;
 }
 
 nav a {
@@ -65,7 +65,7 @@ nav a {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border: 3px solid #3ef838;
+    border: 3px solid #E07A5F;
 }
 
 #accueil h1 {
@@ -101,17 +101,16 @@ nav a {
 
 .grille-projets {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 1.5rem;
 }
 
 .carte {
-    background-color: #1e3b24; 
-    border: 2px solid #09fa3d; 
+    background-color: #FDF6EC; 
+    border: 2px solid #E07A5F; 
     border-radius: 8px;
     padding: 1.5rem;
-    flex: 1 1 calc(33.333% - 1.5rem); 
-    min-width: 280px;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -130,7 +129,7 @@ nav a {
 .carte .technos {
     font-size: 0.9rem;
     font-style: italic;
-    color: #e2e9f0;
+    color: #E07A5F;
     margin-bottom: 1.5rem;
 }
 
@@ -165,7 +164,7 @@ nav a {
 
 
 footer {
-    background-color: #1e3b22;
+    background-color: #FDF6EC;
     text-align: center;
     padding: 1.5rem;
     margin-top: auto;
